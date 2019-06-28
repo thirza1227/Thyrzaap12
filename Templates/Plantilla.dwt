@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+    <!-- TemplateBeginEditable name="doctitle" -->
+    <title>Documento sin título</title>
+    <!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+    <!-- TemplateEndEditable -->
+<link href="../estilo.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <section id="contenedor">
+    	<header>
+        	<img src="../bannerSuperiorChinchay.jpg" id="banner">
+            <div id="titulo">
+            	Inicio
+            </div>
+        </header>
+<section id="Principal">
+      	<nav>
+
+            <ul id="menu">
+            	<li><a href="../Nuestra Historia.html">Nuestra Historia</a></li>
+                <li><a href="../comentarios.html">Comentarios</a></li>
+                <li><a href="../Articulos.html">Artículos</a></li>
+                <li><a href="../Eventos Especiales.html">Eventos Especiales</a></li>
+                <li><a href="../Menu.html">Menú</a></li>            
+                <li><a href="../Ubicacion.html">Ubicación</a></li>
+                <li><a href="../Contactenos.html">Contactenos</a></li>
+            </ul>
+        </nav>
+        <section id="CuerpoDocumento">
+            <!-- TemplateBeginEditable name="EditRegion3" -->EditRegion3<!-- TemplateEndEditable -->
+        </section>
+</section>
+        <footer>
+            <h4>Todos los derechos reservados</h4>    
+         </footer>
+	</section>    
+</body>
+</html>

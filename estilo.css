@@ -1,0 +1,72 @@
+@charset "utf-8";
+body{
+	background:black;
+	}
+
+#contenedor{
+	width:700px;
+	margin:auto;
+	}	
+	
+header{
+	background:#900;
+	color:white;
+	margin:0px;
+	}
+	
+#banner{
+	margin:0px;
+	}
+	
+#titulo{
+	padding:10px 0px 10px 20px;
+	}
+
+#menu{
+	background:#F00;
+	width:120px;
+	height:700px;
+	margin:0px;
+	margin-top:-25px;
+	/*float:left;*/
+	}	
+
+#menu li{
+	list-style:none;
+	margin-left:-20px;
+	margin-top:25px;
+	}
+
+#menu li a{
+	text-decoration:none;
+	color:white;
+	}
+#menu li a:hover{
+	color:yellow;
+	font-weight:bold;
+	}
+#Principal{
+	display:flex;
+	flex-direction:row;
+}
+#CuerpoDocumento{
+	background:#FFC;
+	width:520px;
+	height:680px; /*280px;*/
+	margin:0px;
+	/*float:right;*/
+	padding:10px;
+	}
+	
+footer{
+	background:#FC3;
+	margin:0px;
+	text-align:center;
+	line-height:70px; /*para centrar verticalmente (paso1) */
+	margin-top:-25px;
+	}	
+
+h4{
+	vertical-align: middle; /*para centrar verticalmente (paso2) */
+	}	
+	

@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+/*Página Web Nuestra Historia */
+	#chupe{
+		width:200px;
+		height:150px;
+		float:left;
+		margin:0px 8px 3px 0px;
+		box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+		}
+		
+	p{text-align:justify;}	
+
+/* Página Web Comentarios */	
+	.imagenesComentarios {width:180px;height:185px; margin-top:20px;margin-left:10px;}	
+	#articuloparrafos{width:60%; float:left;}	
+	#articuloimagenes{width:38%; float:right;}
+
+/*Página web Eventos Especiales */
+	video{float:right;border:1px dotted red; margin:5px; width:60%; height:40%;}
+
+/*Página web Menú */
+	#SeccionMenu{
+				position:relative;
+				top:25px;
+				margin:auto;/* centrar */
+				margin-top:-35px;
+				width:100%;
+	/*			border:2px solid white;*/
+				/*border-radius:25px;*/
+				/*box-shadow:0px 10px 15px rgba(0,0,0,0.5);*/
+				/*text-align:center;*/
+				}	
+			.tituloplatosmenu{
+				color:black;
+				/*text-align:center;*/
+				font-family:Verdana;
+				font-weight:bold;
+				/*text-shadow:0px 0px 5px rgba(0,0,0,0.4);*/
+				height:50px;
+				}	
+			hr{margin-top:-40px;}	
+			.parrafo{
+				font-family:Verdana;
+				color:black;
+				text-shadow: 3px 3px 3px rgba(0,0,0,0.4);
+				text-align:justify;
+				font-size:16px;
+				margin: 0px 15px;
+				}
+			.imagenacordeon{
+				width:250px;
+				height:230px;
+				border-radius:15px;
+				box-shadow:5px 5px 5px rgba(0,0,0,0.7);
+				}
+			.articulomenu{
+				height:50px;
+				overflow:hidden; /* desbordamiento (se oculta todo lo que esta  mas alla de 40px */
+				transition:height 2s; /* la capa se abre con un retardo de 2 segundos */
+				}
+			.articulomenu:focus{
+				height:400px; /* cambiar altura a 250px*/
+				outline:none;
+				}	
+/*Página Web Contactenos */
+	#formulario{
+	font-family:Cambria;
+	font-size:12pt;
+	padding:10px;
+	width:500px;
+/*	box-shadow:0 0 10px rgba(0,0,0,0.5);*/
+	margin:auto;
+	margin-top:-20px;
+	}
+	.campos{
+		font-family:Cambria;
+		font-size:12pt;
+		font-weight:bold;
+		width:450px;
+		background:LightYellow;	
+		color:Maroon;
+		border:1px dotted red;
+		padding:10px;
+		border-radius:5px;
+		}
+	.campos:focus{
+		background:white;	
+		}
+
+	.boton{
+		font-family:Verdana;
+		font-size:10pt;
+		font-weight:bold;
+		background:Peru;
+		color:Cornsilk;
+		width:140px;
+		height:50px;
+		border-radius:10px;
+		}	
+	#b_submit{
+		margin: 0px;
+		}
+		
+	#b_reset{
+		margin: -50px 0px 0px 330px;
+		}
+/*Página web Artículos*/
+
+	.contenedor {
+	  position: relative;
+	  height: 190px;
+	  width: 250px;
+	  /*margin: 50px 20px;*/
+	  float: left;
+	}
+
+	.contenedor img {
+	  position: absolute;
+	  height: 190px;
+	  width: 250px;	
+	  left: 0;
+	  transition: opacity 1.5s ease-in-out;
+	}
+
+	.contenedor img.top:hover {
+	  opacity: 0;
+	}
+
+				
+					
